@@ -4,11 +4,11 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey[400],
+        backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: const Color.fromARGB(255, 0, 167, 78),
           title: const Center(child: Text(
-            "I am rich",
+            "I am poor",
             style: TextStyle(
               color: Colors.white,
             ),
@@ -16,7 +16,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: AssetImage("assets/images/diamond.png"),
+            image: AssetImage("assets/images/give-me-money.jpg"),
           ),
         ),
       ),
